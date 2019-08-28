@@ -14,7 +14,6 @@ import org.springframework.test.context.junit4.SpringRunner;
  * $Log: CustomerRepositoryTest.java
  */
 @Log4j2
-@SpringBootApplication
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class CustomerRepositoryTest
@@ -25,7 +24,6 @@ public class CustomerRepositoryTest
   @Test
   public void count()
   {
-    log.info(customerRepository.count());
     System.out.println(customerRepository.count());
   }
 }

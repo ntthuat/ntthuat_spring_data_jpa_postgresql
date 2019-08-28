@@ -11,7 +11,6 @@ import javax.persistence.Table;
  * $Log: Customer.java
  */
 @Data
-@Entity
 @Table(name = "customer")
 public class Customer
 {
